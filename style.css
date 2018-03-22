@@ -9,13 +9,39 @@ h4 {
   text-align: center;
 }
 
+button {
+  height: 20px;
+  width: 100px;
+  margin: -20px -50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background-color: aqua;
+  border-color: aquamarine;
+  border-radius: 1px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+.blue {
+  background-color: #5dade2;
+}
+
+.blue:hover {
+  background-color: #7dbde8;
+}
+
 .container {
-  background-color: #fffeb3;
-  border: solid #ffe28a 4px;
+  /* background-color: #fffeb3; */
+  background-color: aqua;
+  /* border: solid #ffe28a 4px; */
+  border: solid rgb(0, 128, 128) 4px;
   width: 75%;
   height: 75%;
   position: fixed;
-  top: 50%;
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
@@ -25,5 +51,6 @@ h4 {
   height: 20px;
   width: 20px;
   position: relative;
-  background-color: #6fcb9f;
+  /* background-color: #6fcb9f; */
+  background-color: rgb(2, 224, 2);
 }
