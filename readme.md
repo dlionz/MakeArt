@@ -8,4 +8,6 @@ on page load wonderful art is made!
 * add ability to change colors
 * responsive
 
+<https://dlionz.github.io/MakeArt/>
+
 ![art](./art.png "Title")
